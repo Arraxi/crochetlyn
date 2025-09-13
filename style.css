@@ -1,0 +1,27 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f3f0; /* Soft cream/beige background */
+    color: #4a4a4a;
+}
+.header-font {
+    font-family: 'Dancing Script', cursive;
+}
+.text-rose {
+    color: #d1b4b4;
+}
+.bg-rose {
+    background-color: #d1b4b4;
+}
+.border-rose {
+    border-color: #d1b4b4;
+}
+.hover\:bg-rose-dark:hover {
+    background-color: #c09e9e;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
